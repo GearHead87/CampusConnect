@@ -31,7 +31,7 @@ const SiteFooter = ({ show = false }: { show?: boolean }) => {
         ))}
         <li>
           &copy;
-          {new Date().getFullYear()} College Space
+          {new Date().getFullYear()} Campus Connect
         </li>
       </ul>
     </footer>

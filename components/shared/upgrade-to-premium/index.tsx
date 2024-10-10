@@ -31,10 +31,10 @@ const UpgradeToPremium = () => {
         <DialogContent>
           <DialogHeader>
             <DialogTitle>
-              Get the most out of College Space with Premium
+              Get the most out of Campus Connect with Premium
             </DialogTitle>
             <DialogDescription>
-              College Space Verified is not available for businesses or people
+              Campus Connect Verified is not available for businesses or people
               younger than 18 years of age.
             </DialogDescription>
           </DialogHeader>
