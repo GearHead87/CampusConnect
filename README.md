@@ -1,6 +1,6 @@
-# CollegeSpace
+# CampusConnect
 
-CollegeSpace is a vibrant social media platform that acts as a nexus connecting students and startups. It's designed to facilitate seamless interactions, allowing students to share thoughts, display their work, and engage with budding startups, creating a conducive environment for learning, collaboration, and recruitment.
+CampusConnect is a vibrant social media platform that acts as a nexus connecting students and startups. It's designed to facilitate seamless interactions, allowing students to share thoughts, display their work, and engage with budding startups, creating a conducive environment for learning, collaboration, and recruitment.
 
 > tl;dr: It was my CSE370: Database Systems course project at Brac University.
 
@@ -44,7 +44,7 @@ We welcome contributions from the community! To contribute, follow these steps:
 
 ## Getting Started
 
-To get started with CollegeSpace:
+To get started with CampusConnect:
 
 1. Clone this repository.
 2. Install the necessary dependencies.
@@ -54,6 +54,6 @@ To get started with CollegeSpace:
 
 We appreciate your feedback! If you encounter any issues or have suggestions for improvements, please [open an issue](issues).
 
-Join us in making CollegeSpace an engaging platform for students and startups!
+Join us in making CampusConnect an engaging platform for students and startups!
 
 [License](LICENSE)
