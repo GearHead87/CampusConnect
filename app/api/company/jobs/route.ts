@@ -8,13 +8,13 @@ export async function GET(request: NextRequest) {
   SELECT 
     J.*, 
     C.name AS company_name, 
-    C.ownerId AS company_ownerId
+    C."ownerId" AS company_ownerId
   FROM 
     "Job" AS J
   INNER JOIN 
-    "Company" AS C ON J.companyId = C.id
+    "Company" AS C ON J."companyId" = C.id
   ORDER BY
-    J.createdAt DESC;`;
+    J."createdAt" DESC;`;
 
   const jobs = { jobs: data };
 

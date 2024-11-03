@@ -10,15 +10,15 @@ export async function GET(request: NextRequest) {
     U.name AS creator_name, 
     U.email AS creator_email,
     U.bio AS creator_bio,
-    U.createdAt AS creator_createdAt,
+    U."createdAt" AS creator_createdAt,
     U.username AS creator_username, 
     U.image AS creator_image
   FROM
     "Bounty" AS B
   INNER JOIN
-    "User" AS U ON B.userId = U.id
+    "User" AS U ON B."userId" = U.id
   ORDER BY
-    B.createdAt DESC;`;
+    B."createdAt" DESC;`;
 
   return NextResponse.json(bounties, { status: 200 });
 }
