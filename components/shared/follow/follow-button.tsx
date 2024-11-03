@@ -10,7 +10,7 @@ import usePosts from '@/hooks/usePosts';
 interface FollowButtonProps extends VariantProps<typeof buttonVariants> {
   userId: string;
   className?: string;
-  isFollowing?: boolean;
+  isFollowing?: "Unfollow" | "Follow";
   asChild?: boolean;
 }
 
