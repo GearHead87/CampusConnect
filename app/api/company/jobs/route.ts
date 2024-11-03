@@ -10,9 +10,9 @@ export async function GET(request: NextRequest) {
     C.name AS company_name, 
     C.ownerId AS company_ownerId
   FROM 
-    collegespace.Job AS J
+    "Job" AS J
   INNER JOIN 
-    collegespace.Company AS C ON J.companyId = C.id
+    "Company" AS C ON J.companyId = C.id
   ORDER BY
     J.createdAt DESC;`;
 

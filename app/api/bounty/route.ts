@@ -14,9 +14,9 @@ export async function GET(request: NextRequest) {
     U.username AS creator_username, 
     U.image AS creator_image
   FROM
-    collegespace.Bounty AS B
+    "Bounty" AS B
   INNER JOIN
-    collegespace.User AS U ON B.userId = U.id
+    "User" AS U ON B.userId = U.id
   ORDER BY
     B.createdAt DESC;`;
 
